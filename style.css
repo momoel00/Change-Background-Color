@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#bg{
+  display: grid;
+  justify-content: center;
+  text-align: center;  
+  height: 100vh;
+}
+
+button{
+  margin: auto;
+  border: none;
+  padding: 20px 40px;
+  box-shadow: 0.5px 0.1em grey;
+  border-radius: 20px;
+
+}
+button:hover{
+  transition: 0.4s;
+  cursor: pointer;
+  padding: 25px 45px;
+}
